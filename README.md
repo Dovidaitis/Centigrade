@@ -1,5 +1,12 @@
 This system protytype was build during the COVID-19 pandemic
 
+# Hardware of the project
+
+<img src="readme_src/sideview-prototype.png">
+
+# Real time system prototype testing
+
+<img src="readme_src/usage-example-1.png">
 
 
 # Guide how to build this project
@@ -7,7 +14,20 @@ This system protytype was build during the COVID-19 pandemic
 2. Run virtual environment activation script ``` /env/Scripts/activate.bat```
 3. Run ```setup.py``` to install required dependencies
 4. 3D print required parts. (.stl files can be found at ```03_centigrade_CAD``` directory)
-5.  Using the diagram below, make specified connections
+
+![](readme_src/fixture-1-front.png)
+![](readme_src/fixture-1-back.png)
+
+
+![](readme_src/fixture-2-top.png)
+![](readme_src/fixture-2-bottom.png)
+
+
+__Note that the fixtures are adapted to this no-brand webcam from aliexpress:__
+
+<img src="readme_src/webcam.png">
+
+6.  Using the diagram below, make specified connections
 ```
 Pinout for RFID RC522 
 3V3 - 3.3V/VCC

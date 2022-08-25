@@ -40,7 +40,7 @@ def main():
 
 
     if LOGS:
-        gmail_service = GmailService() # there is a possibility that a new session should be created everyty time mail should be send as it might expire, not yested yet
+        gmail_service = GmailService()
         gmail_service.supervisors_emails = settings['supervisor_emails'].split(';')
         log.open_log_sheet()
 
